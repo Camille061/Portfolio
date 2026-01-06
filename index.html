@@ -9,67 +9,72 @@
 </head>
 <body>
 
-    <!-- โปรไฟล์ -->
-    <div style="text-align: center; ">
-    <div id="container">
+<div class="page">
+
+    <div class="card">
         <img class="profile-image" src="img/profile.jpg" alt="">
         <h2>Ratthapoom Saengkampan</h2>
-        <p style="color: blue;">Webstie developer & Fullstack  </p>
-        <div class="about">
-        <img class="icon-contract" width="30px" height="30px" src="img/birthday-cake.png" alt=""> <p style="display: inline;">20 year old</p>
-        <img class="icon-contract" style="margin-left: 30px;" width="20px" height="30px" src="img/location.png" alt=""> <p style="display: inline;">Nakhon Ratchasima, Thailand</p> <br>
-        <button id="ig-btn">
-            <img class="icon" src="img/instagram (2).png" alt="">
-        </button>
-        <button id="fb-btn">
-            <img class="icon" src="img/facebook.png" alt="">
-        </button>
-        <!-- about -->
-        <div id="container" style="margin-top: 80px; height: 200px;">
-            <img style="margin-top: 10px;" class="icon-contract" src="img/user.png" alt="">
-            <h2 style="display: inline;">About me</h2>
-            <div class="box-about">        
-            <span>Full Name: Ratthapoom saengkampan </span> <br>
-            <span>Birtday: 31 July 2005</span> <br>
-            <span>Specialties: Website  development, Bot discord</span> <br>
-            <span>Learn programming from: Chula mooc, Markpruet, milerdev</span>
-            </div>
+        <p class="role">Website developer & Fullstack</p>
+
+        <div class="info">
+            <span>🎂 20 year old</span>
+            <span>📍 Nakhon Ratchasima, Thailand</span>
         </div>
-        <!-- บอท -->
-        <div id="container" style="height: 220px; margin-top: 40px;"   >
-             <h3 style="position: absolute; left: 20px; top: 10px;" >My discord bot</h3> <br>    
-            <div class="box-bot">
-                <div style="margin-top: 20px;">
-                <img style="position: absolute; left: 10px;" class="icon" src="img/bot.png" alt="">
-                <h3 style="position: absolute; left: 10px; margin-top: 30px;">Candy</h3>    <br>
-                <span style="position: absolute; left: 10px; margin-top: 30px; text-align: left;">แชทบอทแก้เหงาสามารถค่อยๆเพิ่มความสัมพันธ์กับบอทได้ มีเกมส์ ตกปลา อวยพรวันเกิด ดูดวง และระบบต่างๆอีกมากมาย! </span> <br>     
-               <div style="margin-top: 30px;">
-                <button style="position: absolute; left: 70px; margin-top: 30px;" class="button-text">600+ Server</button>    
-                <button style="position: absolute; left: 200px; margin-top: 30px;" class="button-text">Python</button> 
-                 <button style="position: absolute; left: 330px; margin-top: 30px;" class="button-text">Chatbot</button>       
-                </div>
-                </div> 
+
+        <div class="social">
+            <button id="ig-btn"><img class="icon" src="img/instagram (2).png"></button>
+            <button id="fb-btn"><img class="icon" src="img/facebook.png"></button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img class="icon" style="position: relative; bottom: 10px;" src="img/user.png" alt="">
+        <h3 style="display: inline; position: relative; bottom: 15px;">About me</h3>
+        <div class="box-about">
+            <p>Full Name: Ratthapoom Saengkampan</p>
+            <p>Birthday: 31 July 2005</p>
+            <p>Specialties: Website development, Discord bot</p>
+            <p>Learn from: Chula MOOC, Markpruet, milerdev</p>
+        </div>
+    </div>
+
+    <!-- Bot -->
+    <div class="card">
+        <div style="position: relative; right: 140px;">
+        <img class="icon" style="position: relative; bottom: 15px;" src="img/bot.png">
+        <h3 style="display: inline; position: relative; bottom: 20px;">My Discord Bot</h3>
+        </div>
+
+        <div class="bot">
+            <h4 style="position: relative; right: 170px;">Candy</h4>
+            <p class="bot-desc">
+                แชทบอทแก้เหงา มีเกมส์ ตกปลา อวยพรวันเกิด ดูดวง และระบบอื่น ๆ
+            </p>
+
+            <div class="tags">
+                <span class="button-text">600+ Server</span>
+                <span class="button-text">Python</span>
+                <span class="button-text">Chatbot</span>
             </div>
         </div>
     </div>
 
-    </div>  
-    </div>
+</div>
 
-    <script>
-        const Facebook = document.getElementById("fb-btn")
-        const Instargram = document.getElementById("ig-btn")
+<script>
+    let Facebook = document.getElementById("fb-btn")
+    let Instargram = document.getElementById("ig-btn")
 
-
-        Instargram.onclick = () => {
-            window.location.href = "https://www.instagram.com/salomon12hf/?igsh=dTR5MDVqdzQ3ajJu&fbclid=IwY2xjawPJ6W9leHRuA2FlbQIxMABicmlkETFnc21Fbm9xOWNwRUduY1Nzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmOpnsMI2UNx6kPiFHwhD7T5VoGTA0MeAfSKO6grtxzl-XcseiAwzzRVhv_5_aem_zVx7UkHpHDriVFYPvZltqg#"
-        }
-        Facebook.onclick = () => {
-            window.location.href = "https://www.facebook.com/profile.php?id=100045080085276"
-
-        }
-    </script>
+    Facebook.onclick = () => {
+        window.location.href = "https://www.facebook.com/profile.php?id=100045080085276"
+    }
+    Instargram.onclick = () => {
+        window.location.href = "https://www.instagram.com/salomon12hf?igsh=dTR5MDVqdzQ3ajJu"
+    }
+</script>
 </body>
+
+
 </html> 
 
 <!-- git init
