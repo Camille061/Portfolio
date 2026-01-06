@@ -7,7 +7,7 @@
 }
 
 body {
-    background: rgb(232,227,223);
+    background: rgb(232, 227, 223);
     font-family: "Prompt", sans-serif;
 }
 
@@ -72,22 +72,37 @@ body {
     background: #f2f2f2;
     cursor: pointer;
 }
+#discord-btn:hover,
+#ig-btn:hover,
+#fb-btn:hover {
+      background: #cfcece;
+      transform: scale(1.1);
+      transition: .3s;
+}
 
 .box-about {
     text-align: left;
     font-size: 14px;
     line-height: 1.6;
+    
 }
 
-.bot {  
+.bot {
     display: flex;
     flex-direction: column;
     gap: 8px;
     align-items: center;
+    background-color: #2f00ff79;
+    border-radius: 10px;
+    height: 100px;
 }
 
 .bot-desc {
+    color: #dedede;
     font-size: 14px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .tags {
@@ -99,10 +114,13 @@ body {
 
 .button-text {
     padding: 6px 12px;
-    background: #0000ff;
-    color: #fff;
+    background: #0000ab;
+    color: #8d8dff;
     border-radius: 12px;
     font-size: 12px;
+}
+.button-text:hover {
+        background: #4b4bc4;
 }
 
 .icon {
