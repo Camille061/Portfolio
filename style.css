@@ -26,6 +26,7 @@ body {
     padding: 24px;
     text-align: center;
     box-shadow: 0 10px 25px #0000006a;
+
 }
 
 .profile-image {
@@ -94,7 +95,7 @@ body {
     align-items: center;
     background-color: #2f00ff79;
     border-radius: 10px;
-    height: 130px;
+    height: 150px;
 }
 
 .bot-desc {
