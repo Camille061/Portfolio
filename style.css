@@ -31,7 +31,7 @@ body {
 
 }
 
-.profile-image {
+#profile-image {
     border: solid #00ddff;
     width: 150px;
     aspect-ratio: 1/1;
@@ -84,6 +84,7 @@ body {
 }
 
 .box-about {
+    margin-top: 20px;
     text-align: left;
     font-size: 14px;
     line-height: 1.6;

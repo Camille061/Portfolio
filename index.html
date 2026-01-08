@@ -14,10 +14,10 @@
     <div class="page">
 
         <div class="card">
-            <img class="profile-image" src="img/profile.jpg" alt="">
+            <img id="profile-image" src="img/profile.jpg" alt="">
             <h2>Ratthaphum Saengkampan</h2>
             <p class="role">Website developer & Fullstack</p>
-
+            
             <div class="info">
                 <span>🎂 20 years old 🔻Nakhon Ratchasima, Thailand</span>
             </div>
@@ -32,8 +32,10 @@
         </div>
 
         <div class="card">
-            <img class="icon" style="position: relative; bottom: 10px;" src="img/user.png" alt="">
-            <h3 style="display: inline; position: relative; bottom: 15px;">About me</h3>
+            <div style="position: absolute; left: 10px; top: 2px;">
+            <img class="icon" style="position: relative; top: 5px;" src="img/user.png" alt="">
+            <h3 style="display: inline;">About me</h3>
+            </div>
             <div class="box-about">
                 <p> <span style="font-weight: bold;">Full Name:</span> Ratthaphum Saengkampan</p>
                 <p> <span style="font-weight: bold;">Birthday:</span> 31 July 2005</p>
@@ -44,14 +46,14 @@
 
         <!-- Bot -->
         <div class="card">
-            <div style="display: inline; position: absolute; left: 22px; top: 0px;">
+            <div style="display: inline; position: absolute; left: 10px; top: 0px;">
             <img class="icon" style="position: relative; top: 5px;" src="img/bot.png">
             <h3 style="display: inline;">My Discord Bot</h3>
             </div>      
             <div class="bot">
                 <h4 style="font-weight: 400; position: relative; top: 10px;">Candy</h4>
                 <p class="bot-desc" style="margin-top: 5px;">
-                    แชทบอทแก้เหงา มีเกมส์ ตกปลา อวยพรวันเกิด ดูดวง และระบบอื่น ๆ
+                    แชทบอทแก้เหงา มีเกมส์ ตกปลา อวยพรวันเกิด ดูดวง และระบบต่างๆอีกมากมาย
                 </p>
 
                 <div class="tags">
@@ -68,6 +70,7 @@
         let Facebook = document.getElementById("fb-btn")
         let Instargram = document.getElementById("ig-btn")
         let Discord = document.getElementById("discord-btn")
+        let profile = document.getElementById("profile-image")
 
         Facebook.onclick = () => {
             window.location.href = "https://www.facebook.com/profile.php?id=100045080085276"
@@ -78,6 +81,7 @@
         Discord.onclick = () => {
             window.location.href = "https://discord.gg/6Dqw8sEf"
         }
+
 
 
     </script>
