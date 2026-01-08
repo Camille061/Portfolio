@@ -21,6 +21,8 @@ body {
 }
 
 .card {
+    position: relative;
+    border: solid #5500ffa8;
     background: #fff;
     border-radius: 16px;
     padding: 24px;
@@ -89,12 +91,14 @@ body {
 }
 
 .bot {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 8px;
     align-items: center;
     background-color: #2f00ff79;
     border-radius: 10px;
+    height: 13  0px;
     height: 130px;
 }
 
