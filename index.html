@@ -58,7 +58,7 @@
 
                 <div class="tags">
                     <span class="button-text">13+ Server</span>
-                    <span class="button-text">Python</span>
+                    <span id="invite-button">เชิญบอท</span>
                     <span class="button-text">Chatbot</span>
                 </div>
             </div>
@@ -71,7 +71,8 @@
         let Instargram = document.getElementById("ig-btn")
         let Discord = document.getElementById("discord-btn")
         let profile = document.getElementById("profile-image")
-
+        let Invite = document.getElementById("invite-button")
+        
         Facebook.onclick = () => {
             window.location.href = "https://www.facebook.com/profile.php?id=100045080085276"
         }
@@ -81,8 +82,9 @@
         Discord.onclick = () => {
             window.location.href = "https://discord.gg/6Dqw8sEf"
         }
-
-
+        Invite.onclick = () => {
+            window.location.href= "https://discord.com/oauth2/authorize?client_id=1454904927699734731"
+        }
 
     </script>
 </body>
