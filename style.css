@@ -72,7 +72,8 @@ body {
 
 #discord-btn,
 #ig-btn,
-#fb-btn {
+#fb-btn,
+#tiktok-btn{
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -129,6 +130,13 @@ body {
     justify-content: center;
 }
 
+#button-text {
+    padding: 6px 12px;
+    background: #0000ab;
+    color: #8d8dff;
+    border-radius: 12px;
+    font-size: 12px;
+}
 .button-text {
     padding: 6px 12px;
     background: #0000ab;

@@ -26,6 +26,8 @@
                 <button id="ig-btn"><img class="icon" src="img/instagram (2).png"></button>
                 <button id="fb-btn"><img class="icon" src="img/facebook.png"></button>
                 <button id="discord-btn"><img class="icon" src="img/discord.png"></button>
+                <button id="tiktok-btn"><img class="icon" src="img/tiktok.png"></button>
+
                 <!-- <button id="fb-btn"><img class="icon" src="img/facebook.png"></button> -->
 
             </div>
@@ -59,20 +61,25 @@
                 <div class="tags">
                     <span class="button-text">13+ Server</span>
                     <span id="invite-button">เชิญบอท</span>
-                    <span class="button-text">Chatbot</span>
+                    <span id="button-text">Website</span>
                 </div>
             </div>
         </div>
 
     </div>
-
+''
     <script>
         let Facebook = document.getElementById("fb-btn")
         let Instargram = document.getElementById("ig-btn")
         let Discord = document.getElementById("discord-btn")
+        let Tiktok = document.getElementById('tiktok-btn')
         let profile = document.getElementById("profile-image")
         let Invite = document.getElementById("invite-button")
-        
+        let website = document.getElementById("button-text")
+
+        website.onclick = () => {
+             window.location.href = " https://candy-bot.onrender.com"   
+        }
         Facebook.onclick = () => {
             window.location.href = "https://www.facebook.com/profile.php?id=100045080085276"
         }
@@ -81,6 +88,9 @@
         }
         Discord.onclick = () => {
             window.location.href = "https://discord.gg/6Dqw8sEf"
+        }
+        Tiktok.onclick = () => {
+            window.location.href = "https://www.tiktok.com/@linkbio4?_r=1&_t=ZS-93VOq4oWaFs"
         }
         Invite.onclick = () => {
             window.location.href= "https://discord.com/oauth2/authorize?client_id=1454904927699734731"
